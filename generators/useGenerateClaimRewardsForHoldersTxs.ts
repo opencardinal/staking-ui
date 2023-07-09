@@ -1,7 +1,7 @@
 import type { AccountData } from '@cardinal/common'
 import { chunkArray, getBatchedMultipleAccounts } from '@cardinal/common'
-import type { IdlAccountData } from '@cardinal/rewards-center'
-import { claimRewards } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
+import { claimRewards } from '@sensei-labs/rewards-center'
 import {
   REWARD_MANAGER,
   rewardDistributorProgram,

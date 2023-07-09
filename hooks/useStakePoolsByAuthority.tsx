@@ -1,6 +1,6 @@
 import type { AccountData } from '@cardinal/common'
-import type { IdlAccountData } from '@cardinal/rewards-center'
-import { rewardsCenterProgram } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
+import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import type { StakePoolData } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import {
   STAKE_POOL_ADDRESS,
@@ -62,7 +62,7 @@ export const getStakePoolsByAuthority = async (
 }
 
 export const useStakePoolsByAuthority = () => {
-  const { secondaryConnection } = useEnvironmentCtx()
+  const { connection } = useEnvironmentCtx()
   const walletId = useWalletId()
 
   return useQuery<
@@ -72,7 +72,7 @@ export const useStakePoolsByAuthority = () => {
     async () => {
       if (!walletId) return
       const stakePoolsV1 = (
-        await getStakePoolsByAuthority(secondaryConnection, walletId)
+        await getStakePoolsByAuthority(connection, walletId)
       ).map((pool) => {
         return {
           pubkey: pool.pubkey,
@@ -80,7 +80,7 @@ export const useStakePoolsByAuthority = () => {
         }
       })
       const stakePoolsV2 = (
-        await rewardsCenterProgram(secondaryConnection).account.stakePool.all([
+        await rewardsCenterProgram(connection).account.stakePool.all([
           {
             memcmp: {
               offset: 9,

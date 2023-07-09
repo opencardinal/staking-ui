@@ -2,11 +2,11 @@ import type { AccountData } from '@cardinal/common'
 import type {
   CardinalRewardsCenter,
   IdlAccountData,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import {
   fetchIdlAccount,
   findRewardDistributorId as findRewardDistributorIdV2,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import type { RewardDistributorData } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { getRewardDistributor } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/accounts'
 import { findRewardDistributorId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'

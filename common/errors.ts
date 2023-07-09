@@ -5,7 +5,7 @@ import {
 import {
   REWARDS_CENTER_ADDRESS,
   REWARDS_CENTER_IDL,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import {
   REWARD_DISTRIBUTOR_ADDRESS,
   REWARD_DISTRIBUTOR_IDL,

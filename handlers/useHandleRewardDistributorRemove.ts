@@ -2,7 +2,7 @@ import {
   executeTransaction,
   withFindOrInitAssociatedTokenAccount,
 } from '@cardinal/common'
-import { rewardsCenterProgram } from '@cardinal/rewards-center'
+import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import { withCloseRewardDistributor } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/transaction'
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token'
 import { useWallet } from '@solana/wallet-adapter-react'

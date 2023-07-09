@@ -2,7 +2,7 @@ import {
   findMintMetadataId,
   getBatchedMultipleAccounts,
 } from '@cardinal/common'
-import type { IdlAccountData } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
 import * as metaplex from '@metaplex-foundation/mpl-token-metadata'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { Connection, PublicKey } from '@solana/web3.js'

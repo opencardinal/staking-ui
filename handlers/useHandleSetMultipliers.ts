@@ -7,7 +7,7 @@ import {
   findRewardEntryId as findRewardEntryIdV2,
   findStakeEntryId,
   rewardsCenterProgram,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import { executeTransaction, handleError } from '@cardinal/staking'
 import { findRewardEntryId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'
 import {

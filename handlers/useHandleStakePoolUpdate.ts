@@ -1,5 +1,5 @@
 import { executeTransaction, tryPublicKey } from '@cardinal/common'
-import { rewardsCenterProgram } from '@cardinal/rewards-center'
+import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import { withUpdateStakePool } from '@cardinal/staking/dist/cjs/programs/stakePool/transaction'
 import { BN } from '@coral-xyz/anchor'
 import { useWallet } from '@solana/wallet-adapter-react'

@@ -1,5 +1,5 @@
 import { executeTransactionSequence, logError, tryNull } from '@cardinal/common'
-import { unstake as unstakeV2 } from '@cardinal/rewards-center'
+import { unstake as unstakeV2 } from '@sensei-labs/rewards-center'
 import { unstakeAll } from '@cardinal/staking'
 import type { Account } from '@solana/spl-token'
 import {

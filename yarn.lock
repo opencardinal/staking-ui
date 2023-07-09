@@ -435,21 +435,6 @@
     "@solana/web3.js" "^1.66.2"
     bn.js "^5.2.0"
 
-"@cardinal/rewards-center@^3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@cardinal/rewards-center/-/rewards-center-3.6.0.tgz#483c9ec78966299bdb2f2c0e1b2a0b805e6071ca"
-  integrity sha512-f9Ftti8K3UxqARs+WNXLfUIXiAjlI6ywgbq6yZcj8ClelvYmCvlmjBc+v1LFxRk/kqFQb6WGJcYPBvQ4FwWyhA==
-  dependencies:
-    "@cardinal/common" "^8.0.0"
-    "@cardinal/creator-standard" "^2.4.0"
-    "@coral-xyz/anchor" "^0.27.0"
-    "@metaplex-foundation/mpl-token-auth-rules" "^1.1.0"
-    "@metaplex-foundation/mpl-token-metadata" "^2.11.0"
-    "@msgpack/msgpack" "^2.8.0"
-    "@solana/spl-token" "^0.3.6"
-    "@solana/web3.js" "^1.66.2"
-    bn.js "^5.2.0"
-
 "@cardinal/staking@^2.4.1":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@cardinal/staking/-/staking-2.4.1.tgz#a2583bd447d5bd4457844c1f3857c8a58ccc1c92"
@@ -1478,6 +1463,21 @@
     "@types/estree" "^1.0.0"
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
+
+"@sensei-labs/rewards-center@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@sensei-labs/rewards-center/-/rewards-center-3.7.0.tgz#0d574715ecd6a5d76392d877ec2227bb49a1e07d"
+  integrity sha512-X/LqGNXNQIAOJzM6QMC5so2t31TJA58/7tK/qzZ+drUh4xZmNB+ur/QFsMLrenhHp77W3zaLbQfLiOVUqbP79Q==
+  dependencies:
+    "@cardinal/common" "^8.0.0"
+    "@cardinal/creator-standard" "^2.4.0"
+    "@coral-xyz/anchor" "^0.27.0"
+    "@metaplex-foundation/mpl-token-auth-rules" "^1.1.0"
+    "@metaplex-foundation/mpl-token-metadata" "^2.11.0"
+    "@msgpack/msgpack" "^2.8.0"
+    "@solana/spl-token" "^0.3.6"
+    "@solana/web3.js" "^1.66.2"
+    bn.js "^5.2.0"
 
 "@sentry/browser@7.33.0", "@sentry/browser@^7.10.0":
   version "7.33.0"

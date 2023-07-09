@@ -1,8 +1,8 @@
-import type { IdlAccountData } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
 import {
   fetchIdlAccount,
   findStakeEntryId as findStakeEntryIdV2,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import { getStakeEntry } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'
 import { findStakeEntryId } from '@cardinal/staking/dist/cjs/programs/stakePool/pda'
 import type { PublicKey } from '@solana/web3.js'

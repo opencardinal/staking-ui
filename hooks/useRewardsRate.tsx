@@ -1,4 +1,4 @@
-import type { IdlAccountData } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
 import { calculatePendingRewards } from '@cardinal/staking'
 import { RewardDistributorKind } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { BN } from '@coral-xyz/anchor'

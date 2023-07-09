@@ -1,4 +1,4 @@
-import { fetchIdlAccount } from '@cardinal/rewards-center'
+import { fetchIdlAccount } from '@sensei-labs/rewards-center'
 import { useQuery } from '@tanstack/react-query'
 import { useRewardDistributorData } from 'hooks/useRewardDistributorData'
 import { useTokenList } from 'hooks/useTokenList'

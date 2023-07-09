@@ -4,8 +4,8 @@ import {
 } from '@cardinal/common'
 import { CONFIGS_IDL } from '@cardinal/configs/dist/cjs/programs/constants'
 import { findConfigEntryId } from '@cardinal/configs/dist/cjs/programs/pda'
-import type { IdlAccountData } from '@cardinal/rewards-center'
-import { rewardsCenterProgram } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
+import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import { getAllStakePools } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { PublicKey } from '@solana/web3.js'
@@ -71,12 +71,6 @@ export const useAllStakePools = () => {
       program.account.stakePool.all(),
     ])
     const allStakePoolDatas = [
-      ...stakePoolsV1.map((pool) => {
-        return {
-          pubkey: pool.pubkey,
-          parsed: stakePoolDataToV2(pool.parsed),
-        }
-      }),
       ...stakePoolsV2.map((pool) => {
         return {
           pubkey: pool.publicKey,

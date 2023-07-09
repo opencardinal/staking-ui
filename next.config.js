@@ -10,6 +10,9 @@ const nextConfig = {
     BASE_CLUSTER: process.env.BASE_CLUSTER,
     BYPASS_REGION_CHECK: process.env.BYPASS_REGION_CHECK,
   },
+  sentry: {
+    hideSourceMaps: true,
+  },
 }
 
 module.exports =
@@ -22,6 +25,7 @@ module.exports =
         //   urlPrefix, include, ignore
 
         silent: true, // Suppresses all logs
+        dryRun: process.env.VERCEL_ENV !== 'production',
         // For all available options, see:
         // https://github.com/getsentry/sentry-webpack-plugin#options.
       })

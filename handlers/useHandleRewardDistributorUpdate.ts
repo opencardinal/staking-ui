@@ -1,5 +1,5 @@
 import { executeTransaction } from '@cardinal/common'
-import { rewardsCenterProgram } from '@cardinal/rewards-center'
+import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import { rewardDistributorProgram } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { BN } from '@coral-xyz/anchor'
 import { useWallet } from '@solana/wallet-adapter-react'

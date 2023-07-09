@@ -1,10 +1,10 @@
 import { tryPublicKey } from '@cardinal/common'
-import type { IdlAccountData } from '@cardinal/rewards-center'
+import type { IdlAccountData } from '@sensei-labs/rewards-center'
 import {
   fetchIdlAccount,
   findRewardEntryId as findRewardEntryIdV2,
   findStakeEntryId,
-} from '@cardinal/rewards-center'
+} from '@sensei-labs/rewards-center'
 import { getRewardEntry } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/accounts'
 import { findRewardEntryId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'
 import { findStakeEntryIdFromMint } from '@cardinal/staking/dist/cjs/programs/stakePool/utils'

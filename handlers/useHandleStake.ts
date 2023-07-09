@@ -1,5 +1,5 @@
 import { executeTransactionSequence, logError } from '@cardinal/common'
-import { stake as stakeV2 } from '@cardinal/rewards-center'
+import { stake as stakeV2 } from '@sensei-labs/rewards-center'
 import { stakeAll } from '@cardinal/staking'
 import { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import { BN } from '@coral-xyz/anchor'

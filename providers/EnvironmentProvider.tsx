@@ -22,7 +22,7 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
     primary: process.env.MAINNET_PRIMARY || 'https://rpc.ankr.com/solana',
-    secondary: process.env.MAINNET_SECONDARY || 'https://rpc.ankr.com/solana',
+    secondary: process.env.MAINNET_PRIMARY || 'https://rpc.ankr.com/solana',
   },
   {
     label: 'testnet',
@@ -30,7 +30,8 @@ export const ENVIRONMENTS: Environment[] = [
   },
   {
     label: 'devnet',
-    primary: 'https://api.devnet.solana.com',
+    primary:
+      'https://frequent-morning-emerald.solana-devnet.discover.quiknode.pro/b64f6fbd99239fee3b435e1e75b185e1a89b54ee/',
   },
 ]
 

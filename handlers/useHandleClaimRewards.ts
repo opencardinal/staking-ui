@@ -1,5 +1,5 @@
 import { executeTransactionSequence, logError, tryNull } from '@cardinal/common'
-import { claimRewards as claimRewardsV2 } from '@cardinal/rewards-center'
+import { claimRewards as claimRewardsV2 } from '@sensei-labs/rewards-center'
 import { claimRewardsAll } from '@cardinal/staking'
 import {
   createAssociatedTokenAccountIdempotentInstruction,

@@ -14,6 +14,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
     // 'plugin:prettier/recommended',
+    'plugin:@next/next/recommended',
   ],
   ignorePatterns: ['*.js'],
   parserOptions: {
@@ -21,7 +22,7 @@ module.exports = {
   },
   settings: { react: { version: 'detect' } },
   rules: {
-    'react/no-unknown-property': ['error', { ignore: ['css'] }],
+    'react/no-unknown-property': 'off',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',

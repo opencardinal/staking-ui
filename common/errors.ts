@@ -1,7 +1,7 @@
 import {
   CONFIGS_ADDRESS,
   CONFIGS_IDL,
-} from '@cardinal/configs/dist/cjs/programs/constants'
+} from '@sensei-labs/cardinal-configs/dist/cjs/programs/constants'
 import {
   REWARDS_CENTER_ADDRESS,
   REWARDS_CENTER_IDL,

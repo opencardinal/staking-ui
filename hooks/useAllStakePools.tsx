@@ -2,8 +2,8 @@ import {
   getBatchedMultipleAccounts,
   tryDecodeIdlAccount,
 } from '@cardinal/common'
-import { CONFIGS_IDL } from '@cardinal/configs/dist/cjs/programs/constants'
-import { findConfigEntryId } from '@cardinal/configs/dist/cjs/programs/pda'
+import { CONFIGS_IDL } from '@sensei-labs/cardinal-configs/dist/cjs/programs/constants'
+import { findConfigEntryId } from '@sensei-labs/cardinal-configs/dist/cjs/programs/pda'
 import type { IdlAccountData } from '@sensei-labs/rewards-center'
 import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
 import { getAllStakePools } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'

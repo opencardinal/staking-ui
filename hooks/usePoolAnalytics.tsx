@@ -1,6 +1,6 @@
 import { ApolloClient, gql, InMemoryCache } from '@apollo/client'
-import type { IdlAccountData } from '@sensei-labs/rewards-center'
-import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
+import type { IdlAccountData } from '@manaform/rewards-center'
+import { rewardsCenterProgram } from '@manaform/rewards-center'
 import { getActiveStakeEntriesForPool } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { Connection } from '@solana/web3.js'

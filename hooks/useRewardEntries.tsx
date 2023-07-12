@@ -1,8 +1,8 @@
-import type { IdlAccountData, RewardEntry } from '@sensei-labs/rewards-center'
+import type { IdlAccountData, RewardEntry } from '@manaform/rewards-center'
 import {
   fetchIdlAccountDataById,
   findRewardEntryId as findRewardEntryIdV2,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import { getRewardEntries } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/accounts'
 import { findRewardEntryId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'
 import { rewardEntryDataToV2 } from 'api/fetchRewardEntry'

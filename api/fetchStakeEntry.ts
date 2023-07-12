@@ -2,12 +2,12 @@ import type {
   CardinalRewardsCenter,
   IdlAccountData,
   StakeEntry,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import {
   fetchIdlAccount,
   findStakeEntryId,
   rewardsCenterProgram,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import type { StakeEntryData } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import {
   getStakeEntriesForUser,

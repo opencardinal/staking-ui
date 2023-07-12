@@ -7,7 +7,7 @@ import {
   findRewardEntryId as findRewardEntryIdV2,
   findStakeEntryId,
   rewardsCenterProgram,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import { executeTransaction, handleError } from '@cardinal/staking'
 import { findRewardEntryId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'
 import {

@@ -968,6 +968,31 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-6.10.1.tgz#5bd16082261d7364eabb511c788f00937dac588d"
   integrity sha512-z+ILK8Q3y+nfUl43ctCPuR4Y2bIxk/ooCQFwZxhtci1EhAtMDzMAx2W25qx8G1PPL9UUOdnUax19+F0OjXoj4w==
 
+"@manaform/configs@^1.3.5":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@manaform/configs/-/configs-1.3.5.tgz#82be58681f6ceff9085d0afa8ca2e3bf19c9aec9"
+  integrity sha512-koNkss8bR5LTwVooMshzxQBD2LIquSCQESabmhH+SN0lMvfg5QLEQW6cYkQl2j1qydzvMGQjaA9N0rxhRyIkcA==
+  dependencies:
+    "@cardinal/common" "^5.0.2"
+    "@project-serum/anchor" "^0.25.0"
+    "@solana/web3.js" "^1.66.2"
+    dotenv "^16.0.3"
+
+"@manaform/rewards-center@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@manaform/rewards-center/-/rewards-center-3.7.0.tgz#607160e7312f518539174239e11365cb1db6363b"
+  integrity sha512-6je7kGEVUXMiKBusG0tDTVbtmNCG2NRyvcjgLxIVQr5L4/qtXL4aztIaPt7CxP1JsjmlcCbCExiRvLdOLNToAQ==
+  dependencies:
+    "@cardinal/common" "^8.0.0"
+    "@cardinal/creator-standard" "^2.4.0"
+    "@coral-xyz/anchor" "^0.27.0"
+    "@metaplex-foundation/mpl-token-auth-rules" "^1.1.0"
+    "@metaplex-foundation/mpl-token-metadata" "^2.11.0"
+    "@msgpack/msgpack" "^2.8.0"
+    "@solana/spl-token" "^0.3.6"
+    "@solana/web3.js" "^1.66.2"
+    bn.js "^5.2.0"
+
 "@metaplex-foundation/beet-solana@^0.3.0":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/beet-solana/-/beet-solana-0.3.1.tgz#4b37cda5c7f32ffd2bdd8b3164edc05c6463ab35"
@@ -1466,31 +1491,6 @@
     "@types/estree" "^1.0.0"
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
-
-"@sensei-labs/cardinal-configs@^1.3.5":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@sensei-labs/cardinal-configs/-/cardinal-configs-1.3.5.tgz#aef42ca159f10fcd5338b7e77e8aa81234d94326"
-  integrity sha512-E36IcRP1lLfM6qlpI9eGfW6uZTMVXm+C9dQRMnu8KhuaykwvyfPfFdwKdCbcI3cqOg4RDHXmVSAUZ2IrocnELQ==
-  dependencies:
-    "@cardinal/common" "^5.0.2"
-    "@project-serum/anchor" "^0.25.0"
-    "@solana/web3.js" "^1.66.2"
-    dotenv "^16.0.3"
-
-"@sensei-labs/rewards-center@^3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@sensei-labs/rewards-center/-/rewards-center-3.7.0.tgz#0d574715ecd6a5d76392d877ec2227bb49a1e07d"
-  integrity sha512-X/LqGNXNQIAOJzM6QMC5so2t31TJA58/7tK/qzZ+drUh4xZmNB+ur/QFsMLrenhHp77W3zaLbQfLiOVUqbP79Q==
-  dependencies:
-    "@cardinal/common" "^8.0.0"
-    "@cardinal/creator-standard" "^2.4.0"
-    "@coral-xyz/anchor" "^0.27.0"
-    "@metaplex-foundation/mpl-token-auth-rules" "^1.1.0"
-    "@metaplex-foundation/mpl-token-metadata" "^2.11.0"
-    "@msgpack/msgpack" "^2.8.0"
-    "@solana/spl-token" "^0.3.6"
-    "@solana/web3.js" "^1.66.2"
-    bn.js "^5.2.0"
 
 "@sentry/browser@7.33.0", "@sentry/browser@^7.10.0":
   version "7.33.0"

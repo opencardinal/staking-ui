@@ -1,4 +1,4 @@
-import type { IdlAccountData } from '@sensei-labs/rewards-center'
+import type { IdlAccountData } from '@manaform/rewards-center'
 import { useStakeAuthorizationsForPool } from 'hooks/useStakeAuthorizationsForPool'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 

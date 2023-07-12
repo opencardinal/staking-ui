@@ -1,4 +1,4 @@
-import type { IdlAccountData } from '@sensei-labs/rewards-center'
+import type { IdlAccountData } from '@manaform/rewards-center'
 import { PublicKey } from '@solana/web3.js'
 import { formatAmountAsDecimal } from 'common/units'
 import { useRewardDistributorData } from 'hooks/useRewardDistributorData'

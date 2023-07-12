@@ -1,11 +1,11 @@
 import type {
   CardinalRewardsCenter,
   IdlAccountData,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import {
   REWARDS_CENTER_ADDRESS,
   REWARDS_CENTER_IDL,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import type { StakePoolData } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import {
   STAKE_POOL_ADDRESS,

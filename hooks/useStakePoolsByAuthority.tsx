@@ -1,6 +1,6 @@
 import type { AccountData } from '@cardinal/common'
-import type { IdlAccountData } from '@sensei-labs/rewards-center'
-import { rewardsCenterProgram } from '@sensei-labs/rewards-center'
+import type { IdlAccountData } from '@manaform/rewards-center'
+import { rewardsCenterProgram } from '@manaform/rewards-center'
 import type { StakePoolData } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import {
   STAKE_POOL_ADDRESS,

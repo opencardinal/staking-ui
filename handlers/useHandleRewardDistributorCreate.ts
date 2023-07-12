@@ -3,7 +3,7 @@ import {
   DEFAULT_PAYMENT_INFO,
   findRewardDistributorId,
   rewardsCenterProgram,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import { RewardDistributorKind } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { withInitRewardDistributor } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/transaction'
 import { BN } from '@coral-xyz/anchor'

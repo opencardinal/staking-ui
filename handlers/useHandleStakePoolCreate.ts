@@ -3,7 +3,7 @@ import {
   DEFAULT_PAYMENT_INFO,
   findStakePoolId,
   rewardsCenterProgram,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import { BN } from '@coral-xyz/anchor'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { PublicKey } from '@solana/web3.js'

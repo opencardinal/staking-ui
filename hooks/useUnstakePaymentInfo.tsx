@@ -1,4 +1,4 @@
-import { fetchIdlAccount } from '@sensei-labs/rewards-center'
+import { fetchIdlAccount } from '@manaform/rewards-center'
 import { useQuery } from '@tanstack/react-query'
 import { useStakePoolData } from 'hooks/useStakePoolData'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'

@@ -1,11 +1,11 @@
 import {
   CONFIGS_ADDRESS,
   CONFIGS_IDL,
-} from '@sensei-labs/cardinal-configs/dist/cjs/programs/constants'
+} from '@manaform/configs/dist/cjs/programs/constants'
 import {
   REWARDS_CENTER_ADDRESS,
   REWARDS_CENTER_IDL,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import {
   REWARD_DISTRIBUTOR_ADDRESS,
   REWARD_DISTRIBUTOR_IDL,

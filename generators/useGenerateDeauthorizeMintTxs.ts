@@ -3,7 +3,7 @@ import {
   fetchIdlAccountDataById,
   findStakeAuthorizationRecordId,
   rewardsCenterProgram,
-} from '@sensei-labs/rewards-center'
+} from '@manaform/rewards-center'
 import { findStakeAuthorizationId } from '@cardinal/staking/dist/cjs/programs/stakePool/pda'
 import { withDeauthorizeStakeEntry } from '@cardinal/staking/dist/cjs/programs/stakePool/transaction'
 import { useWallet } from '@solana/wallet-adapter-react'

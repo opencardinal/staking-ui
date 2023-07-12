@@ -1,4 +1,5 @@
 import { contrastify } from '@cardinal/common'
+import { LogoTitled } from 'assets/LogoTitled'
 import { darken, getLuminance, lighten } from 'polished'
 import { FaDiscord, FaGithub, FaMedium, FaTwitter } from 'react-icons/fa'
 
@@ -25,21 +26,7 @@ export const Footer = ({
     >
       <div className="flex w-full flex-wrap items-start justify-between gap-10 py-10">
         <div className="flex items-center">
-          <img
-            alt={bgColor}
-            className="inline-block h-[28px]"
-            src={
-              getLuminance(bgColor) < 0.5
-                ? '/cardinal-crosshair.svg'
-                : '/cardinal-crosshair-dark.svg'
-            }
-          />
-          <span
-            className="ml-3 text-2xl font-semibold"
-            style={{ color: contrastify(100, bgColor) }}
-          >
-            Cardinal
-          </span>
+          <LogoTitled />
         </div>
         <div className="flex gap-10 self-end text-center md:gap-20">
           <span className="flex flex-col items-start gap-1">

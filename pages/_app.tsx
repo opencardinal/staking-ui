@@ -92,12 +92,27 @@ const App = ({
             <WalletProvider autoConnect wallets={wallets}>
               <WalletIdentityProvider>
                 <WalletModalProvider>
-                <ModalProvider>
-                  <>
-                    <ToastContainer />
-                    <Component {...pageProps} />
-                    <ReactQueryDevtools initialIsOpen={false} />
-                  </>
+                  <ModalProvider>
+                    <>
+                      <ToastContainer />
+                      <div
+                        style={{
+                          maxWidth: '1440px',
+                          margin: '0 auto',
+                        }}
+                      >
+                        <Component {...pageProps} />
+
+                        <style jsx global>
+                          {`
+                            .bg-glow {
+                              background-color: rgb(187 146 206) !important;
+                            }
+                          `}
+                        </style>
+                      </div>
+                      <ReactQueryDevtools initialIsOpen={false} />
+                    </>
                   </ModalProvider>
                 </WalletModalProvider>
               </WalletIdentityProvider>

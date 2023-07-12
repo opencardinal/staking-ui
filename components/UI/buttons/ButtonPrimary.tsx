@@ -19,7 +19,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 export const ButtonPrimary = ({
   disabled,
   children,
-  color = ORANGE,
+  color = GREEN,
   onClick,
   className,
   width = MID,
@@ -28,6 +28,10 @@ export const ButtonPrimary = ({
   return (
     <button
       disabled={disabled}
+      style={{
+        background: '#bd95cd',
+        ...style,
+      }}
       className={classNames(className, [
         width === NARROW ? 'w-auto' : `min-w-[230px]`,
         disabled ? 'opacity-50' : '',
@@ -42,7 +46,6 @@ export const ButtonPrimary = ({
           'bg-red-800 text-white': color === MAROON,
         },
       ])}
-      style={style}
       onClick={onClick}
     >
       {children}

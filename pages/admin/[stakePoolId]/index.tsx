@@ -20,7 +20,7 @@ function Home() {
         <title>{`${
           config ? config.displayName : 'Cardinal'
         } NFT Staking`}</title>
-        <meta name="description" content="Cardinal NFT Staking" />
+        <meta name="description" content="Manaform NFT Staking" />
         <link rel="icon" href={config ? config.imageUrl : `/favicon.ico`} />
         <script
           defer

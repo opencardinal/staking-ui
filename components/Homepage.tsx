@@ -12,7 +12,7 @@ function Homepage() {
   return (
     <div className="bg-dark-5">
       <Head>
-        <title>Manaform - NFT Staking</title>
+        <title>Open Cardinal - NFT Staking</title>
         <meta name="title" content="NFT Staking on Solana" />
         <meta
           name="description"

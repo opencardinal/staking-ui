@@ -19,7 +19,7 @@ function Admin() {
   return (
     <div className="flex min-h-screen flex-col">
       <Head>
-        <title>Manaform NFT Staking</title>
+        <title>OpenCardinal NFT Staking</title>
         <meta name="title" content="NFT Staking on Solana" />
         <meta
           name="description"

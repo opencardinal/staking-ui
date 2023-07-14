@@ -50,7 +50,7 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
   const [pane, setPane] = useState<PANE_OPTIONS>('dashboard')
   const stakePoolDisplayName = props.stakePoolMetadataName
     ? props.stakePoolMetadataName.replace(' Staking', '') + ' Staking'
-    : 'Manaform NFT Staking'
+    : 'OpenCardinal NFT Staking'
 
   const { data: stakePoolMetadata } = useStakePoolMetadataCtx()
 
@@ -154,8 +154,8 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
               : 'Stake your Solana NFTs powered by Cardinal Staking'
           }
         />
-        <meta name="image" content="https://stake.cardinal.so/preview.png" />
-        <meta name="og:image" content="https://stake.cardinal.so/preview.png" />
+        {/* <meta name="image" content="https://stake.cardinal.so/preview.png" />
+        <meta name="og:image" content="https://stake.cardinal.so/preview.png" /> */}
         <link rel="icon" href={stakePoolMetadata?.imageUrl ?? `/favicon.ico`} />
         <script
           defer

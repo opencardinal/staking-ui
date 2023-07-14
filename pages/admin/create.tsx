@@ -7,7 +7,7 @@ const AdminCreatePage = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <Head>
-        <title>Manaform NFT Staking</title>
+        <title>OpenCardinal NFT Staking</title>
         <meta name="title" content="Create your Stake Pool" />
         <meta
           name="description"

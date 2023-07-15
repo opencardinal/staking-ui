@@ -5,8 +5,8 @@ import {
 } from '@manaform/configs/dist/cjs/programs/accounts'
 import type { Connection } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import type { StakePoolMetadata } from 'api/mapping'
-import { stakePoolsWithHostnames } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
+import { stakePoolsWithHostnames } from 'helpers/mapping'
 import { useRouter } from 'next/router'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 

@@ -7,7 +7,7 @@ import { findConfigEntryId } from '@manaform/configs/dist/cjs/programs/pda'
 import type { PublicKey } from '@solana/web3.js'
 import { Keypair } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import type { StakePoolMetadata } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
 export const useStakePoolsMetadatas = (

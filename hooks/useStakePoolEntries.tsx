@@ -4,7 +4,7 @@ import { getActiveStakeEntriesForPool } from '@cardinal/staking/dist/cjs/program
 import type { Connection } from '@solana/web3.js'
 import { PublicKey } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import { stakeEntryDataToV2 } from 'api/fetchStakeEntry'
+import { stakeEntryDataToV2 } from 'helpers/fetchStakeEntry'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
 import { TOKEN_DATAS_KEY } from './useAllowedTokenDatas'

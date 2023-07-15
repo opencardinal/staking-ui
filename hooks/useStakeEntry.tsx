@@ -7,7 +7,7 @@ import { getStakeEntry } from '@cardinal/staking/dist/cjs/programs/stakePool/acc
 import { findStakeEntryId } from '@cardinal/staking/dist/cjs/programs/stakePool/pda'
 import type { PublicKey } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import { stakeEntryDataToV2 } from 'api/fetchStakeEntry'
+import { stakeEntryDataToV2 } from 'helpers/fetchStakeEntry'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
 import { isStakePoolV2, useStakePoolData } from './useStakePoolData'

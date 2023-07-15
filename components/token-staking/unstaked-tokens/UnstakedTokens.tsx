@@ -1,6 +1,6 @@
 import { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import { Tooltip } from '@mui/material'
-import { defaultSecondaryColor, TokenStandard } from 'api/mapping'
+import { defaultSecondaryColor, TokenStandard } from 'helpers/mapping'
 import { LoadingSpinner } from 'common/LoadingSpinner'
 import { notify } from 'common/Notification'
 import { RefreshButton } from 'common/RefreshButton'

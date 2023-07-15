@@ -1,7 +1,7 @@
 import type { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import { BN } from '@coral-xyz/anchor'
 import type { UseMutationResult } from '@tanstack/react-query'
-import { defaultSecondaryColor } from 'api/mapping'
+import { defaultSecondaryColor } from 'helpers/mapping'
 import { LoadingSpinner } from 'common/LoadingSpinner'
 import { QuickActions } from 'common/QuickActions'
 import { getNameFromTokenData } from 'common/tokenDataUtils'

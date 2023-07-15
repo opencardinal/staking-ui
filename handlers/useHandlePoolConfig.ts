@@ -9,7 +9,7 @@ import {
   Transaction,
 } from '@solana/web3.js'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
-import type { StakePoolMetadata } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
 import { handleError } from 'common/errors'
 import { notify } from 'common/Notification'
 import { asWallet } from 'common/Wallets'

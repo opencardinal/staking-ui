@@ -5,7 +5,7 @@ import {
 } from '@manaform/rewards-center'
 import { getRewardEntries } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/accounts'
 import { findRewardEntryId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'
-import { rewardEntryDataToV2 } from 'api/fetchRewardEntry'
+import { rewardEntryDataToV2 } from 'helpers/fetchRewardEntry'
 import { REWARD_QUERY_KEY } from 'handlers/useHandleClaimRewards'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 import { useQuery } from '@tanstack/react-query'

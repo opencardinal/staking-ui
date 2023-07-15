@@ -2,8 +2,8 @@ import { getRewardMap } from '@cardinal/staking'
 import { RewardDistributorKind } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { BN } from '@coral-xyz/anchor'
 import { useQuery } from '@tanstack/react-query'
-import { rewardEntryDataToV1 } from 'api/fetchRewardEntry'
-import { stakeEntryDataToV1 } from 'api/fetchStakeEntry'
+import { rewardEntryDataToV1 } from 'helpers/fetchRewardEntry'
+import { stakeEntryDataToV1 } from 'helpers/fetchStakeEntry'
 import { useUTCNow } from 'providers/UTCNowProvider'
 
 import {

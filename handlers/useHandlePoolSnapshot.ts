@@ -4,7 +4,7 @@ import { getActiveStakeEntriesForPool } from '@cardinal/staking/dist/cjs/program
 import { useWallet } from '@solana/wallet-adapter-react'
 import { PublicKey } from '@solana/web3.js'
 import { useMutation } from '@tanstack/react-query'
-import { stakeEntryDataToV2 } from 'api/fetchStakeEntry'
+import { stakeEntryDataToV2 } from 'helpers/fetchStakeEntry'
 import { notify } from 'common/Notification'
 import { asWallet } from 'common/Wallets'
 

@@ -11,7 +11,7 @@ import { useWallet } from '@solana/wallet-adapter-react'
 import type { PublicKey } from '@solana/web3.js'
 import { Keypair } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import type { StakePoolMetadata } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
 import { asWallet } from 'common/Wallets'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
@@ -65,6 +65,7 @@ export const useAllStakePools = () => {
       }
     | undefined
   >(['useAllStakePools'], async () => {
+    console.time('query')
     const program = rewardsCenterProgram(connection, asWallet(wallet))
     const [stakePoolsV1, stakePoolsV2] = await Promise.all([
       getAllStakePools(connection),
@@ -144,6 +145,8 @@ export const useAllStakePools = () => {
         },
         [[] as StakePool[], [] as StakePool[]]
       )
+
+    console.timeEnd('query')
     return {
       stakePoolsWithMetadata: stakePoolsWithMetadata.sort((a, b) =>
         a

@@ -1,6 +1,6 @@
 import { BN } from '@coral-xyz/anchor'
 import { Tooltip } from '@mui/material'
-import { defaultSecondaryColor } from 'api/mapping'
+import { defaultSecondaryColor } from 'helpers/mapping'
 import { LoadingSpinner } from 'common/LoadingSpinner'
 import { notify } from 'common/Notification'
 import { RefreshButton } from 'common/RefreshButton'

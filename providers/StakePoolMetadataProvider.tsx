@@ -1,5 +1,5 @@
 import type { UseQueryResult } from '@tanstack/react-query'
-import type { StakePoolMetadata } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
 import { useStakePoolMetadata } from 'hooks/useStakePoolMetadata'
 import React, { useContext } from 'react'
 

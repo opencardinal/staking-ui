@@ -1,6 +1,6 @@
 import { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
-import type { StakePoolMetadata } from 'api/mapping'
-import { TokenStandard } from 'api/mapping'
+import type { StakePoolMetadata } from 'helpers/mapping'
+import { TokenStandard } from 'helpers/mapping'
 import { AsyncButton } from 'common/Button'
 import { FormFieldTitleInput } from 'common/FormFieldInput'
 import { LoadingSpinner } from 'common/LoadingSpinner'

@@ -7,7 +7,7 @@ import * as metaplex from '@metaplex-foundation/mpl-token-metadata'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { Connection, PublicKey } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
-import { fetchStakeEntriesForUser } from 'api/fetchStakeEntry'
+import { fetchStakeEntriesForUser } from 'helpers/fetchStakeEntry'
 import { asWallet } from 'common/Wallets'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 

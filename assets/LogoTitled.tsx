@@ -2,12 +2,10 @@ export const LogoTitled = ({ className }: { className?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="504"
-      height="96"
       fill="none"
       viewBox="0 0 504 96"
       style={{
-        width: '360px',
+        width: '240px',
       }}
     >
       <path

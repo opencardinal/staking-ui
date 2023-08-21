@@ -214,8 +214,8 @@ export const stakePoolsWithHostnames: {
     hostname: 'https://stake.cardinal.so/DevilBots',
   },
   {
-    stakePoolAddress: 'EBeHpw9byuS55Znu4qrpsPC9LJvtrgNRKNwzWQPHk2g1',
-    hostname: 'v2stake.senseilabs.xyz',
+    stakePoolAddress: 'qdGCCLJJdAdpPjR9MDhzT1v65kj55e5xpJziUiWG1dR',
+    hostname: 'staking.senseilabs.xyz',
   },
   {
     stakePoolAddress: '9A3tS3sJ4DrPcVdshZTKHLDUUy1zoSLp47rPPhmyvNGD',

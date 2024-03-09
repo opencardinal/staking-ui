@@ -3,7 +3,7 @@ import {
   findMintMetadataId,
   tryDecodeIdlAccount,
 } from '@cardinal/common'
-import type { CardinalRewardsCenter } from '@manaform/rewards-center'
+import type { CardinalRewardsCenter } from '@l1t/rewards-center'
 import {
   fetchIdlAccountDataById,
   findRewardEntryId,
@@ -11,7 +11,7 @@ import {
   remainingAccountsForAuthorization,
   REWARDS_CENTER_IDL,
   rewardsCenterProgram,
-} from '@manaform/rewards-center'
+} from '@l1t/rewards-center'
 import * as v1 from '@cardinal/staking'
 import {
   withInitRewardEntry,

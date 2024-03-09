@@ -3,7 +3,7 @@ import {
   findAta,
   withFindOrInitAssociatedTokenAccount,
 } from '@cardinal/common'
-import { rewardsCenterProgram } from '@manaform/rewards-center'
+import { rewardsCenterProgram } from '@l1t/rewards-center'
 import { withReclaimFunds } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/transaction'
 import { BN } from '@coral-xyz/anchor'
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token'

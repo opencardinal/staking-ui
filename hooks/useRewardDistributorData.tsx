@@ -1,12 +1,9 @@
 import type { AccountData } from '@cardinal/common'
-import type {
-  CardinalRewardsCenter,
-  IdlAccountData,
-} from '@manaform/rewards-center'
+import type { CardinalRewardsCenter, IdlAccountData } from '@l1t/rewards-center'
 import {
   fetchIdlAccount,
   findRewardDistributorId as findRewardDistributorIdV2,
-} from '@manaform/rewards-center'
+} from '@l1t/rewards-center'
 import type { RewardDistributorData } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { getRewardDistributor } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/accounts'
 import { findRewardDistributorId } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/pda'

@@ -1,4 +1,4 @@
-import type { IdlAccountData } from '@manaform/rewards-center'
+import type { IdlAccountData } from '@l1t/rewards-center'
 import { AsyncButton } from 'common/Button'
 import { useHandlePoolSnapshot } from 'handlers/useHandlePoolSnapshot'
 

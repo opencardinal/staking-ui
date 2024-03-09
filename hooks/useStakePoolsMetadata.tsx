@@ -2,8 +2,8 @@ import {
   getBatchedMultipleAccounts,
   tryDecodeIdlAccount,
 } from '@cardinal/common'
-import { CONFIGS_IDL } from '@manaform/configs/dist/cjs/programs/constants'
-import { findConfigEntryId } from '@manaform/configs/dist/cjs/programs/pda'
+import { CONFIGS_IDL } from '@l1t/configs/dist/cjs/programs/constants'
+import { findConfigEntryId } from '@l1t/configs/dist/cjs/programs/pda'
 import type { PublicKey } from '@solana/web3.js'
 import { Keypair } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'

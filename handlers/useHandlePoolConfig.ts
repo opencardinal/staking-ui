@@ -1,7 +1,7 @@
 import { chunkArray, tryNull } from '@cardinal/common'
-import { getConfigEntry } from '@manaform/configs/dist/cjs/programs/accounts'
-import { configsProgram } from '@manaform/configs/dist/cjs/programs/constants'
-import { findConfigEntryId } from '@manaform/configs/dist/cjs/programs/pda'
+import { getConfigEntry } from '@l1t/configs/dist/cjs/programs/accounts'
+import { configsProgram } from '@l1t/configs/dist/cjs/programs/constants'
+import { findConfigEntryId } from '@l1t/configs/dist/cjs/programs/pda'
 import { useWallet } from '@solana/wallet-adapter-react'
 import {
   sendAndConfirmRawTransaction,

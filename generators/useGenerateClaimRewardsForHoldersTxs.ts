@@ -1,7 +1,7 @@
 import type { AccountData } from '@cardinal/common'
 import { chunkArray, getBatchedMultipleAccounts } from '@cardinal/common'
-import type { IdlAccountData } from '@manaform/rewards-center'
-import { claimRewards } from '@manaform/rewards-center'
+import type { IdlAccountData } from '@l1t/rewards-center'
+import { claimRewards } from '@l1t/rewards-center'
 import {
   REWARD_MANAGER,
   rewardDistributorProgram,

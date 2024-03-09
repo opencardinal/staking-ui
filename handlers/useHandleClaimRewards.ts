@@ -1,5 +1,5 @@
 import { executeTransactionSequence, logError, tryNull } from '@cardinal/common'
-import { claimRewards as claimRewardsV2 } from '@manaform/rewards-center'
+import { claimRewards as claimRewardsV2 } from '@l1t/rewards-center'
 import { claimRewardsAll } from '@cardinal/staking'
 import {
   createAssociatedTokenAccountIdempotentInstruction,

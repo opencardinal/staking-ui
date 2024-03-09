@@ -1,4 +1,4 @@
-import type { IdlAccountData } from '@manaform/rewards-center'
+import type { IdlAccountData } from '@l1t/rewards-center'
 import { calculatePendingRewards } from '@cardinal/staking'
 import { RewardDistributorKind } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { BN } from '@coral-xyz/anchor'

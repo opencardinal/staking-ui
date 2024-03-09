@@ -2,10 +2,10 @@ import {
   getBatchedMultipleAccounts,
   tryDecodeIdlAccount,
 } from '@cardinal/common'
-import { CONFIGS_IDL } from '@manaform/configs/dist/cjs/programs/constants'
-import { findConfigEntryId } from '@manaform/configs/dist/cjs/programs/pda'
-import type { IdlAccountData } from '@manaform/rewards-center'
-import { rewardsCenterProgram } from '@manaform/rewards-center'
+import { CONFIGS_IDL } from '@l1t/configs/dist/cjs/programs/constants'
+import { findConfigEntryId } from '@l1t/configs/dist/cjs/programs/pda'
+import type { IdlAccountData } from '@l1t/rewards-center'
+import { rewardsCenterProgram } from '@l1t/rewards-center'
 import { getAllStakePools } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { PublicKey } from '@solana/web3.js'

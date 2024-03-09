@@ -4,7 +4,7 @@ import {
   findRewardDistributorId,
   findStakePoolId,
   rewardsCenterProgram,
-} from '@manaform/rewards-center'
+} from '@l1t/rewards-center'
 import { createStakePool } from '@cardinal/staking'
 import { RewardDistributorKind } from '@cardinal/staking/dist/cjs/programs/rewardDistributor'
 import { withInitRewardDistributor } from '@cardinal/staking/dist/cjs/programs/rewardDistributor/transaction'

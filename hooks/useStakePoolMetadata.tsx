@@ -2,7 +2,7 @@ import { tryNull, tryPublicKey } from '@cardinal/common'
 import {
   getConfigEntry,
   getConfigEntryById,
-} from '@manaform/configs/dist/cjs/programs/accounts'
+} from '@l1t/configs/dist/cjs/programs/accounts'
 import type { Connection } from '@solana/web3.js'
 import { useQuery } from '@tanstack/react-query'
 import type { StakePoolMetadata } from 'helpers/mapping'

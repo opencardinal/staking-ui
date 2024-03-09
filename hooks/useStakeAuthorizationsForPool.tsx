@@ -1,5 +1,5 @@
-import type { IdlAccountData } from '@manaform/rewards-center'
-import { rewardsCenterProgram } from '@manaform/rewards-center'
+import type { IdlAccountData } from '@l1t/rewards-center'
+import { rewardsCenterProgram } from '@l1t/rewards-center'
 import { getStakeAuthorizationsForPool } from '@cardinal/staking/dist/cjs/programs/stakePool/accounts'
 import { useWallet } from '@solana/wallet-adapter-react'
 import { useQuery } from '@tanstack/react-query'

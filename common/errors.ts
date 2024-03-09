@@ -1,11 +1,8 @@
 import {
   CONFIGS_ADDRESS,
   CONFIGS_IDL,
-} from '@manaform/configs/dist/cjs/programs/constants'
-import {
-  REWARDS_CENTER_ADDRESS,
-  REWARDS_CENTER_IDL,
-} from '@manaform/rewards-center'
+} from '@l1t/configs/dist/cjs/programs/constants'
+import { REWARDS_CENTER_ADDRESS, REWARDS_CENTER_IDL } from '@l1t/rewards-center'
 import {
   REWARD_DISTRIBUTOR_ADDRESS,
   REWARD_DISTRIBUTOR_IDL,

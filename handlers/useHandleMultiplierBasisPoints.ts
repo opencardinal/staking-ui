@@ -1,5 +1,5 @@
 import { executeTransaction } from '@cardinal/common'
-import { rewardsCenterProgram } from '@manaform/rewards-center'
+import { rewardsCenterProgram } from '@l1t/rewards-center'
 import { BN } from '@coral-xyz/anchor'
 import { useWallet } from '@solana/wallet-adapter-react'
 import type { PublicKey } from '@solana/web3.js'

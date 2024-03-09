@@ -1,4 +1,4 @@
-import { fetchIdlAccount } from '@manaform/rewards-center'
+import { fetchIdlAccount } from '@l1t/rewards-center'
 import { useQuery } from '@tanstack/react-query'
 import { useRewardDistributorData } from 'hooks/useRewardDistributorData'
 import { useTokenList } from 'hooks/useTokenList'

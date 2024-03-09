@@ -1,5 +1,5 @@
 import { getExpirationString } from '@cardinal/common'
-import type { IdlAccountData } from '@manaform/rewards-center'
+import type { IdlAccountData } from '@l1t/rewards-center'
 import type { StakeEntryTokenData } from 'hooks/useStakedTokenDatas'
 import { useStakePoolData } from 'hooks/useStakePoolData'
 import { useUTCNow } from 'providers/UTCNowProvider'

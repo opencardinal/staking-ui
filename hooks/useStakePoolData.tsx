@@ -1,11 +1,5 @@
-import type {
-  CardinalRewardsCenter,
-  IdlAccountData,
-} from '@manaform/rewards-center'
-import {
-  REWARDS_CENTER_ADDRESS,
-  REWARDS_CENTER_IDL,
-} from '@manaform/rewards-center'
+import type { CardinalRewardsCenter, IdlAccountData } from '@l1t/rewards-center'
+import { REWARDS_CENTER_ADDRESS, REWARDS_CENTER_IDL } from '@l1t/rewards-center'
 import type { StakePoolData } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import {
   STAKE_POOL_ADDRESS,

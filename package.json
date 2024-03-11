@@ -38,7 +38,7 @@
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "@l1t/configs": "^1.3.7",
-    "@l1t/rewards-center": "^3.7.8",
+    "@l1t/rewards-center": "^3.8.3",
     "@metaplex-foundation/mpl-token-metadata": "^2.11.0",
     "@mui/material": "^5.8.2",
     "@popperjs/core": "^2.11.5",

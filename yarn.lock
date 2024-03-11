@@ -920,10 +920,10 @@
     "@solana/web3.js" "^1.66.2"
     dotenv "^16.0.3"
 
-"@l1t/rewards-center@^3.7.8":
-  version "3.7.8"
-  resolved "https://registry.yarnpkg.com/@l1t/rewards-center/-/rewards-center-3.7.8.tgz#f6511d7f0f7c2bb79560b48f99a5a01962b13a32"
-  integrity sha512-LjDUoB7B4WRtc4377WehEEg5j9sb15ejaV4TtHcoaTN03e0BU/jT60StKMf/rRbD2OpgFYArhW4lWWnnABOkaA==
+"@l1t/rewards-center@^3.8.3":
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/@l1t/rewards-center/-/rewards-center-3.8.3.tgz#03a23d60bf02082aaa74cc8355371d6c083f2144"
+  integrity sha512-RPIaJ98z7LiZz8AMrJx2QgxdJV4lxJIBaSQw9UFtTe72HSkqDzHbfss94BM3FyJ1Qvk/QO5lvPvFQceTgR4oJA==
   dependencies:
     "@cardinal/common" "^8.0.0"
     "@cardinal/creator-standard" "^2.4.0"

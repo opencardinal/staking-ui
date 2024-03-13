@@ -88,36 +88,34 @@ const App = ({
     <EnvironmentProvider defaultCluster={cluster}>
       <QueryClientProvider client={queryClient}>
         <StakePoolMetadataProvider hostname={hostname}>
-          <UTCNowProvider>
-            <WalletProvider autoConnect wallets={wallets}>
-              <WalletIdentityProvider>
-                <WalletModalProvider>
-                  <ModalProvider>
-                    <>
-                      <ToastContainer />
-                      <div
-                        style={{
-                          maxWidth: '1440px',
-                          margin: '0 auto',
-                        }}
-                      >
-                        <Component {...pageProps} />
+          <WalletProvider autoConnect wallets={wallets}>
+            <WalletIdentityProvider>
+              <WalletModalProvider>
+                <ModalProvider>
+                  <>
+                    <ToastContainer />
+                    <div
+                      style={{
+                        maxWidth: '1440px',
+                        margin: '0 auto',
+                      }}
+                    >
+                      <Component {...pageProps} />
 
-                        <style jsx global>
-                          {`
-                            .bg-glow {
-                              background-color: rgb(187 146 206) !important;
-                            }
-                          `}
-                        </style>
-                      </div>
-                      <ReactQueryDevtools initialIsOpen={false} />
-                    </>
-                  </ModalProvider>
-                </WalletModalProvider>
-              </WalletIdentityProvider>
-            </WalletProvider>
-          </UTCNowProvider>
+                      <style jsx global>
+                        {`
+                          .bg-glow {
+                            background-color: rgb(187 146 206) !important;
+                          }
+                        `}
+                      </style>
+                    </div>
+                    <ReactQueryDevtools initialIsOpen={false} />
+                  </>
+                </ModalProvider>
+              </WalletModalProvider>
+            </WalletIdentityProvider>
+          </WalletProvider>
         </StakePoolMetadataProvider>
       </QueryClientProvider>
     </EnvironmentProvider>

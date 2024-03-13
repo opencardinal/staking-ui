@@ -12,9 +12,8 @@ import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
 export const useStakePoolMetadata = (hostname?: string) => {
   const { connection } = useEnvironmentCtx()
-  const {
-    query: { stakePoolId },
-  } = useRouter()
+
+  const stakePoolId = '6wZvyohHMxhrsSaBaceVDrXpKdKFXEfLtXmMpMspt7GT'
 
   return useQuery(
     ['useStakePoolMetadata', stakePoolId?.toString()],

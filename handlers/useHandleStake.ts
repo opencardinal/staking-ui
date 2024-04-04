@@ -94,6 +94,7 @@ export const useHandleStake = (callback?: () => void) => {
         })
       } else {
         ///////////// stake v2 /////////////
+        
         txs = [
           (
             await stakeV2(
@@ -105,6 +106,7 @@ export const useHandleStake = (callback?: () => void) => {
           ).map((tx) => ({ tx })),
         ]
       }
+      console.log("txs", txs)
       return executeTransactionSequence(connection, txs, wallet, {
         errorHandler: (e) => {
           notify({ message: 'Failed to stake', description: `${e}` })

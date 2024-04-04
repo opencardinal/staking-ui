@@ -13,6 +13,8 @@ export const useHandleExecuteTransaction = () => {
     async ({ transaction }: { transaction: Transaction }): Promise<string> => {
       const recentBlockhash = (await connection.getRecentBlockhash('max'))
         .blockhash
+      
+        console.log("data blockhash", recentBlockhash)
       transaction.feePayer = wallet.publicKey
       transaction.recentBlockhash = recentBlockhash
       transaction = await wallet.signTransaction(transaction)

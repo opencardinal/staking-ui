@@ -68,7 +68,7 @@ export const useGenerateClaimRewardsForHoldersTxs = () => {
       const costLog = `Estimated SOL needed to claim rewards for ${
         [...stakeEntriesV1, ...stakeEntriesV2].length
       } staked tokens:`
-      0.002 * [...stakeEntriesV1, ...stakeEntriesV2].length, 'SOL'
+      0.0002 * [...stakeEntriesV1, ...stakeEntriesV2].length, 'SOL'
       notify({
         message: costLog,
         type: 'info',

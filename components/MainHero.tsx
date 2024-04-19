@@ -2,7 +2,6 @@ import { PlusIcon } from '@heroicons/react/24/solid'
 import { HeaderSlim } from 'common/HeaderSlim'
 import { withCluster } from 'common/utils'
 import { useAllStakePools } from 'hooks/useAllStakePools'
-import { useStat } from 'hooks/useStat'
 import { useRouter } from 'next/router'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
 
@@ -15,7 +14,6 @@ import { ButtonWidths } from '../types'
 export const MainHero = () => {
   const { environment } = useEnvironmentCtx()
   const allStakePools = useAllStakePools()
-  const totalStakedTokens = useStat('total-active-staked-tokens')
   const router = useRouter()
   return (
     <div className="relative z-0 text-sm">
@@ -50,18 +48,6 @@ export const MainHero = () => {
             </ButtonPrimary>
           </div>
           <div className="flex w-fit flex-wrap gap-3 rounded-xl border-[2px] border-border p-4">
-            <div className="flex items-center gap-2">
-              <div className="text-medium-3">Total Staked Tokens</div>
-              <div className="text-light-0">
-                {totalStakedTokens.data?.parsed ? (
-                  Number(totalStakedTokens.data?.parsed.value).toLocaleString(
-                    'en-US'
-                  )
-                ) : (
-                  <div className="mt-[1px] h-5 w-12 animate-pulse rounded-md bg-border" />
-                )}
-              </div>
-            </div>
             <div className="flex items-center gap-2">
               <div className="text-medium-3">Total Staked NFTs</div>
               <div className="text-light-0">

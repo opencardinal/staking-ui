@@ -9,9 +9,6 @@ const nextConfig = {
     BASE_CLUSTER: process.env.BASE_CLUSTER,
     BYPASS_REGION_CHECK: process.env.BYPASS_REGION_CHECK,
   },
-  sentry: {
-    hideSourceMaps: true,
-  },
 }
 
 module.exports = nextConfig

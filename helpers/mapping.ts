@@ -249,4 +249,8 @@ export const stakePoolsWithHostnames: {
     stakePoolAddress: 'qdGCCLJJdAdpPjR9MDhzT1v65kj55e5xpJziUiWG1dR',
     hostname: 'staking.senseilabs.xyz',
   },
+  {
+    stakePoolAddress: '36wui6rpbKqcqC6CAjzz2Boy5tuEqUZ8f6rnLDUTY6yG',
+    hostname: 'stake.letsdoh.io',
+  },
 ]

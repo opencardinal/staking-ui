@@ -1,6 +1,6 @@
 # Staking UI
 
-This repository hosts the UI interface that powers **https://www.manaform.xyz/** for staking NFTs on Solana.
+This repository hosts the UI interface that powers **https://www.opencardinal.com/** for staking NFTs on Solana.
 
 Use this repo to create and deploy stake pools with built-in reward distribution, or build your own custom interface with our underlying staking protocol.
 

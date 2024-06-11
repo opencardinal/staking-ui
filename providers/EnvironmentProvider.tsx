@@ -31,7 +31,7 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'devnet',
     primary:
-      'https://frequent-morning-emerald.solana-devnet.discover.quiknode.pro/b64f6fbd99239fee3b435e1e75b185e1a89b54ee/',
+      'https://devnet.helius-rpc.com/?api-key=81b1565c-df1f-40b2-ad85-99e2de973d94',
   },
 ]
 

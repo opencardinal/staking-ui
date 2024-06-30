@@ -7,7 +7,9 @@ import { CollectionsView } from './CollectionsView'
 import { MainHero } from './MainHero'
 
 function Homepage() {
+  console.time('stake pools')
   const allStakePools = useAllStakePools()
+  console.timeEnd('stake pools')
 
   return (
     <div className="bg-dark-5">

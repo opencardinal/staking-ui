@@ -2,7 +2,7 @@ const { withSentryConfig } = require('@sentry/nextjs')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   env: {
     MAINNET_PRIMARY: process.env.MAINNET_PRIMARY,
     MAINNET_SECONDARY: process.env.MAINNET_SECONDARY,

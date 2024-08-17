@@ -6,20 +6,7 @@ import { WalletIdentityProvider } from '@cardinal/namespaces-components'
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base'
 import { WalletProvider } from '@solana/wallet-adapter-react'
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
-import {
-  BackpackWalletAdapter,
-  BraveWalletAdapter,
-  CoinbaseWalletAdapter,
-  ExodusWalletAdapter,
-  FractalWalletAdapter,
-  GlowWalletAdapter,
-  LedgerWalletAdapter,
-  MathWalletAdapter,
-  PhantomWalletAdapter,
-  SlopeWalletAdapter,
-  SolflareWalletAdapter,
-  TorusWalletAdapter,
-} from '@solana/wallet-adapter-wallets'
+
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { ToastContainer } from 'common/Notification'
@@ -67,23 +54,8 @@ const App = ({
     }
   }, [cluster])
 
-  const wallets = useMemo(
-    () => [
-      new PhantomWalletAdapter(),
-      new BackpackWalletAdapter(),
-      new SolflareWalletAdapter({ network }),
-      new CoinbaseWalletAdapter(),
-      new BraveWalletAdapter(),
-      new SlopeWalletAdapter(),
-      new FractalWalletAdapter(),
-      new GlowWalletAdapter({ network }),
-      new ExodusWalletAdapter(),
-      new LedgerWalletAdapter(),
-      new MathWalletAdapter(),
-      new TorusWalletAdapter({ params: { network, showTorusButton: false } }),
-    ],
-    [network]
-  )
+  const wallets = useMemo(() => [], [network])
+
   return (
     <EnvironmentProvider defaultCluster={cluster}>
       <QueryClientProvider client={queryClient}>

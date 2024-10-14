@@ -22,9 +22,9 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
     primary:
-      'https://solana-mainnet.g.alchemy.com/v2/TuBFoUc8fpgrn_eQEL_m1DjB051yBmjy',
+      'https://mainnet.helius-rpc.com/?api-key=06eac08e-6925-451f-99f3-b5f32b4d0a90',
     secondary:
-      'https://solana-mainnet.g.alchemy.com/v2/TuBFoUc8fpgrn_eQEL_m1DjB051yBmjy',
+      'https://mainnet.helius-rpc.com/?api-key=06eac08e-6925-451f-99f3-b5f32b4d0a90',
   },
   {
     label: 'testnet',

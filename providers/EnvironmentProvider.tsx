@@ -22,9 +22,9 @@ export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
     primary:
-      'https://special-neat-yard.solana-mainnet.quiknode.pro/ceead0db45e95c1901478ee50c70f7107c908681',
+      'https://mainnet.helius-rpc.com/?api-key=156e83be-b359-4f60-8abb-c6a17fd3ff5f',
     secondary:
-      'https://special-neat-yard.solana-mainnet.quiknode.pro/ceead0db45e95c1901478ee50c70f7107c908681',
+      'https://mainnet.helius-rpc.com/?api-key=156e83be-b359-4f60-8abb-c6a17fd3ff5f',
   },
   {
     label: 'testnet',
